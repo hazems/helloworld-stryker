@@ -42,5 +42,4 @@ describe("RentPriceClassifier", function() {
     rentPriceClassifier.classify(price);
     expect(auditManager.log).toHaveBeenCalledWith("price = " + price);
   });
-
 });
