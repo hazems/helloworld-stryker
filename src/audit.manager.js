@@ -1,6 +1,5 @@
-function AuditManager() {
+class AuditManager {
+  log(message) {
+    console.log(message);
+  };
 }
-
-AuditManager.prototype.log = function(message) {
-  console.log(message);
-};
